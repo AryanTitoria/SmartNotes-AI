@@ -1,0 +1,51 @@
+/* App.css */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/creative-vector-illustration-math-equation-mathematical-arithmetic-physics-formulas-background-art-design-screen-blackboard-140500224.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Add dark overlay */
+  background-color: rgba(0, 0, 0, 0.75); /* fallback color */
+  background-blend-mode: darken;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1601924638867-3ec8f5f2dfcc?fit=crop&w=1740&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.form-box {
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  background: rgba(207, 191, 191, 0.95);
+  border-radius: 12px;
+
+}
