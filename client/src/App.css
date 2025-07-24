@@ -1,4 +1,4 @@
-/* App.css */
+App.css
 body, html, #root {
   margin: 0;
   padding: 0;
@@ -23,16 +23,6 @@ body, html, #root {
   justify-content: center;
   align-items: center;
 }
-/* .background {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("https://images.unsplash.com/photo-1601924638867-3ec8f5f2dfcc?fit=crop&w=1740&q=80");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .main-container {
   display: flex;
@@ -49,3 +39,51 @@ body, html, #root {
   border-radius: 12px;
 
 }
+.landing-page {
+  background: url("/creative-vector-illustration-math-equation-mathematical-arithmetic-physics-formulas-background-art-design-screen-blackboard-140500224.webp")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7); /* dark overlay */
+  background-blend-mode: darken;
+}
+
+.landing-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #00d2ff, #3a47d5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #cccccc;
+}
+
+.landing-page button {
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.landing-page button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+}
+
